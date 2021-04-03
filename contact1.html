@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tyr</title>
+    <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="contact.css">
+     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <section class="header">
+     <nav>
+         <a href="" class="logo">KETAN</a>
+         <div class="nav-link" id="navLink">
+            <i class="fa fa-times"  onclick="showMenu()"></i>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">photos</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">setting</a></li>
+            </ul>
+         </div>
+        <i class="fa fa-bars" class="icon" onclick="hideMenu()"></i>
+     </nav>
+     <div class="text-box">
+        <h1>Welcome to my website !</h1>
+        <p>No one should go the web alone. One small thing left… <br>A smart and talented designer. Open up your business to new possibilities.</p>
+         
+     </div>
+ </section>
+
+
+
+
+
+<script >
+    var navLink =document.getElementById("navLink");
+    function showMenu(){
+        navLink.style.top="-700px";
+    }
+     function hideMenu(){
+        navLink.style.top="0px";
+    }
+
+
+</script>
+
+
+
+
+</body>
+</html>
