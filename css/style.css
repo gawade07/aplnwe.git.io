@@ -273,6 +273,7 @@ section {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    padding-top: 15rem;
   }
   .home .content .text {
     width: 100%;
@@ -290,6 +291,7 @@ section {
   }
   .home .content .image {
     width: 100%;
+    margin-bottom:3rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
