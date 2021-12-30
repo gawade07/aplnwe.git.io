@@ -251,6 +251,7 @@ section.burger .box .s1 h4 {
 
 section.burger .box .s1 img {
   width: 100%;
+  
 }
 
 section.burger .box .s1 p {
@@ -573,5 +574,10 @@ section .bigbox .box.bos {
     display: flex;
     padding: .7rem;
   }
+  section.burger .box .s1 img {
+  width: 100%;
+  height:100%
+  
+}
 }
 /*# sourceMappingURL=style.css.map */
