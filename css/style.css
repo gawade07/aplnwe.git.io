@@ -1,0 +1,158 @@
+* {
+  padding: 0rem;
+  margin: 0rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+img {
+  width: 100%;
+}
+
+.padd {
+  padding: .5rem 5rem;
+}
+
+header {
+  width: 100%;
+  left: 0%;
+  top: 0;
+  position: fixed;
+  background: #ada9b9;
+  margin-top: 2rem;
+}
+
+header .nav1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav1 .img {
+  width: 100%;
+}
+
+header .nav1 .img img {
+  width: 25%;
+  min-width: 100px;
+}
+
+header .nav1 .content {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+header .nav1 .content img {
+  width: 3.58%;
+  min-width: 25px;
+  margin-right: .5rem;
+}
+
+header .nav1 .content h2 {
+  font-size: 1rem;
+}
+
+header .nav {
+  width: 100%;
+}
+
+header .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+header .nav ul a {
+  margin-left: 4%;
+  font-size: .95rem;
+  text-transform: uppercase;
+  color: #222;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.contact-title {
+  text-align: center;
+  margin-top: 7.5rem;
+}
+
+.contact-form {
+  text-align: center;
+  margin-top: 2rem;
+  width: 600px;
+  background: #dddada;
+  margin: 2rem auto;
+  padding: 2rem;
+  -webkit-box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+  width: 100%;
+  margin: .5rem 0;
+  padding: 1rem;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .padd {
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .padd {
+    padding: 1rem 3rem;
+  }
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 0.7rem;
+  }
+  .padd {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 0.6rem;
+  }
+  .padd {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 0.55rem;
+  }
+  .padd {
+    padding: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
